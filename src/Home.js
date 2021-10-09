@@ -3,7 +3,8 @@ import React, { Component } from "react";
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div id="home" className="block"
+        style={{ backgroundImage: "url(/img/onestbeau.jpg)" }}>
         <h2>HELLO</h2>
         <p>Cras facilisis urna ornare ex volutpat, et
         convallis erat elementum. Ut aliquam, ipsum vitae
