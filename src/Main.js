@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Menu from "./Menu";
-import Home from "./Home";
-import Stuff from "./Stuff";
+import Invitation from "./Invitation";
+import Programme from "./Programme";
+import Infos from "./Infos";
 import Contact from "./Contact";
 
 class Main extends Component {
@@ -9,10 +10,10 @@ class Main extends Component {
     return (
         <div>
             <Menu/>
-            <h1>Simple SPA</h1>
-            <div className="content">
-                <Home/>
-                <Stuff/>
+            <div className="content" id="content">
+                <Invitation/>
+                <Programme/>
+                <Infos/>
                 <Contact/>
             </div>
         </div>

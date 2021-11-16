@@ -7,21 +7,28 @@ class Menu extends Component {
         <ul className="header">
             <li>
                 <Link activeClass="active" 
-                    to="home" offset={-100}
+                    to="invitation"
                     spy={true} 
                     smooth={true}>
-                    Home
+                    Invitation
                 </Link>
             </li>
             <li>
-                <Link to="stuff" offset={-100}
+                <Link to="programme"
                     spy={true} 
                     smooth={true}>
-                    Stuff
+                    Programme
                 </Link>
             </li>
             <li>
-                <Link to="contact" offset={-100}
+                <Link to="infos"
+                    spy={true} 
+                    smooth={true}>
+                    Infos pratiques
+                </Link>
+            </li>
+            <li>
+                <Link to="contact"
                     spy={true} 
                     smooth={true}>
                     Contact

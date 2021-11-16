@@ -1,52 +1,191 @@
+html {
+  font-size: 10px;
+}
 body {
-    background-color: #FFCC00;
-    padding: 20px;
-    margin: 0;
-  }
-  h1, h2, p, ul, li {
-    font-family: sans-serif;
-  }
-  ul.header li {
-    display: inline;
-    list-style-type: none;
-    margin: 0;
-  }
-  ul.header {
-    background-color: #111;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  ul.header li a {
-    color: #FFF;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 20px;
-    display: inline-block;
-  }
-  .content {
-    background-color: #FFF;
-    padding: 20px;
-  }
-  .content h2 {
-    padding: 0;
-    margin: 0;
-  }
-  .content li {
-    margin-bottom: 10px;
-  }
-  .active {
-    background-color: #0099FF;
-  }
-  .block {
-    height: 800px;
-  }
+  margin: 0;
+  position: relative;
+  font-family: sans-serif;
+}
+h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
 
-  #home {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-  }
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #333;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 2vh;
+  text-decoration: none;
+  padding: 1.5vh;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  background-color: #7ac64d;
+}
+.block {
+  height: 95vh;
+  padding-top: 5vh;
+}
+.row {
+  width: 94%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.btn {
+  display: inline-block;
+  font-size: 1.7rem;
+  line-height: 50px;
+  text-transform: uppercase;
+  padding: 0 3rem;
+  margin: 1.5rem 1.5rem 0 0;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: .2rem solid #072B1E;
+  color: #072B1E;
+}
+.btn:hover {
+  background-color: #FFFFFF;
+}
+
+
+#invitation {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#invitation h1 {
+  /*font-family: "montserrat-medium", sans-serif;*/
+  font-size: 4rem;
+  line-height: 1.333;
+  letter-spacing: -.1rem;
+  color: #072B1E;
+}
+#invitation .row {
+  padding-top: 58vh;
+}
+#invitation .invitation_buttons {
+  padding-top: 4vh;
+}
+#invitation .invitation_buttons .btn {
+  width: 215px;
+  /*font-family: "lora-regular", serif;*/
+}
+
+#programme {
+  background-color: #072B1E;
+  color: #FFFFFF;
+}
+#programme .row {
+  padding-top: 12vh;
+}
+#programme h1 {
+  /*font-family: "montserrat-medium", sans-serif;*/
+  font-size: 6rem;
+  line-height: 1.333;
+  letter-spacing: -.1rem;
+  padding-bottom: 2.2rem;
+  text-align: center;
+}
+#programme h1::after {
+  content: "";
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 500px;
+  display: block;
+  margin: 20px auto 0;
+}
+#programme .desc p {
+  font-size: 2.4rem;
+  line-height: 1.75;
+  text-align: center;
+  padding-bottom: 15px;
+}
+#programme .mod-temoin {
+  max-width: 1200px;
+  padding-top: 4vh;
+}
+#programme .fiche-temoin {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+}
+#programme .fiche-temoin .photo-pastille img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+#programme .fiche-temoin h3 {
+  font-size: 2.4rem;
+  line-height: 1.333;
+}
+#programme .fiche-temoin p {
+  font-size: 1.6rem;
+}
+
+#infos {
+  color: #072B1E;
+  background-color: #FFFFFF;
+}
+#infos .row {
+  padding-top: 6vh;
+}
+#infos h1 {
+  /*font-family: "montserrat-medium", sans-serif;*/
+  font-size: 4rem;
+  line-height: 1.333;
+  letter-spacing: -.1rem;
+  padding-bottom: 2.2rem;
+  text-align: center;
+}
+#infos h1::after {
+  content: "";
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 500px;
+  display: block;
+  margin: 20px auto 0;
+}
+#infos h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#infos .map iframe {
+  border: 0;
+  width: 100%;
+  height: 30vh;
+}
+#infos .link-to .btn:hover{
+  color: #FFFFFF;
+  background-color: #072B1E;
+}
+
+#contact {
+  background-color: #111111;
+  color: #FFFFFF;
+}
