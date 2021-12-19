@@ -1,10 +1,16 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.ttf") format("truetype");
+ }
+ 
+
 html {
   font-size: 10px;
 }
 body {
   margin: 0;
   position: relative;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 h1, h2, p, ul, li {
   margin: 0;
@@ -72,10 +78,7 @@ ul.header li a {
 
 
 #invitation {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(to right, rgba(238,222,206,255), rgba(248,201,110,255));
 }
 #invitation h1 {
   /*font-family: "montserrat-medium", sans-serif;*/
@@ -85,6 +88,11 @@ ul.header li a {
   color: #072B1E;
 }
 #invitation .row {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
   padding-top: 58vh;
 }
 #invitation .invitation_buttons {

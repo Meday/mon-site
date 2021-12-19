@@ -4,9 +4,8 @@ import {Link} from 'react-scroll'
 class Invitation extends Component {
   render() {
     return (
-      <section id="invitation" className="block"
-        style={{ backgroundImage: "url(/img/onestbeau.jpg)" }}>
-          <div className="row">
+      <section id="invitation" className="block">
+          <div className="row" style={{ backgroundImage: "url(/img/onestbeau.jpg)" }}>
             <h1>
               Caly & Médé vous invitent à célébrer l'amour et la vie, samedi 25 juin 2022 à Rignac (12)<br/>
               Dresscode : A vous d'allier l'élégance au mauvais goût avec un thème "haut chic bas choc".

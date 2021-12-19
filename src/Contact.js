@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { useForm } from "react-hook-form";
 
 class Contact extends Component {
   render() {

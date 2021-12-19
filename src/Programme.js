@@ -24,7 +24,7 @@ class Programme extends Component {
         <div className="row mod-temoin">
           <div className="fiche-temoin">
             <div className="photo-pastille">
-              <img src="/img/kirby175.jpg"/>
+              <img src="/img/kirby175.jpg" alt=""/>
             </div>
             <h3>
               John Doe
@@ -35,7 +35,7 @@ class Programme extends Component {
           </div>
           <div className="fiche-temoin">
             <div className="photo-pastille">
-              <img src="/img/kirby175.jpg"/>
+              <img src="/img/kirby175.jpg" alt=""/>
             </div>
             <h3>
               John Doe
@@ -45,7 +45,7 @@ class Programme extends Component {
             </p>
           </div><div className="fiche-temoin">
             <div className="photo-pastille">
-              <img src="/img/kirby175.jpg"/>
+              <img src="/img/kirby175.jpg" alt=""/>
             </div>
             <h3>
               John Doe
@@ -55,7 +55,7 @@ class Programme extends Component {
             </p>
           </div><div className="fiche-temoin">
             <div className="photo-pastille">
-              <img src="/img/kirby175.jpg"/>
+              <img src="/img/kirby175.jpg" alt=""/>
             </div>
             <h3>
               John Doe

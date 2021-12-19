@@ -11,7 +11,7 @@ class Infos extends Component {
           </h1>
           <div className="map">
             <h3>Ça se passe ici :</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d712.6526342496209!2d2.304729829256436!3d44.40011595687477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDI0JzAwLjQiTiAywrAxOCcxOS4wIkU!5e0!3m2!1sfr!2sfr!4v1635597389807!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
+            <iframe title="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d712.6526342496209!2d2.304729829256436!3d44.40011595687477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDI0JzAwLjQiTiAywrAxOCcxOS4wIkU!5e0!3m2!1sfr!2sfr!4v1635597389807!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
           </div>
           <div className="link-to">
             <h3>Vous cherchez un hébergement ?</h3>
