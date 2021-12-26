@@ -92,6 +92,7 @@ ul.header li a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: contain;
   height: 100%;
   padding-top: 58vh;
 }
@@ -195,5 +196,47 @@ ul.header li a {
 
 #contact {
   background-color: #111111;
+  color: #FFFFFF;
+}
+
+#contact input {
+  color: #FFFFFF;
+  font-size: 2rem;
+  border-radius: 5px;
+  line-height: 2.2rem;
+  background-color: transparent;
+  border:2px solid #FFFFFF;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+#contact input:focus { border:2px solid #7ac64d; }
+
+#contact textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+#contact [type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#FFFFFF;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:#111111;
+  font-size:2rem;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  font-weight:700;
+}
+#contact [type="submit"]:hover { 
+  background:#7ac64d; 
   color: #FFFFFF;
 }
